@@ -160,6 +160,6 @@ I also learned that:
 * Context windows determine how much information the model can consider
 * Temperature controls the randomness and creativity of responses
 * LLMs can hallucinate
-* Tools help AI agents perform reliable calculations and access external information
+* Tools help AI agents perform reliable calculations and access external information.
 
 These concepts are important because the LLM acts as the reasoning component that helps an AI agent plan and coordinate tasks.
