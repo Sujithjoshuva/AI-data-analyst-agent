@@ -1,4 +1,4 @@
-# Lesson 2: How Large Language Models (LLMs) Work
+# Lesson 2: How Large Language Models (LLMs) Work.
 
 ## Project: AI Data Analyst Agent
 
