@@ -1,123 +1,117 @@
-# AI Data Analyst Agent 
+# AI Data Analyst Agent
 
-An AI-powered Data Analyst Agent being built step by step while learning Agentic AI.
+A step-by-step project where I am learning to build an AI Data Analyst Agent using Python, LLMs, APIs, tools, and agentic AI concepts.
 
-The goal of this project is to combine **Data Analytics, Python, SQL, Pandas, and Large Language Models (LLMs)** to build an AI agent capable of analyzing data and providing useful insights.
+The goal is to gradually build an agent that can understand business questions, analyze data, use appropriate tools, and provide clear business insights.
 
 ---
 
 ## Project Goal
 
-The final AI Data Analyst Agent will be able to:
+Build an AI Data Analyst Agent that can:
 
-* Read CSV and Excel files
-* Understand data-related questions
-* Analyze data using Python and Pandas
-* Perform calculations
-* Identify trends and patterns
-* Generate insights
-* Create visualizations
-* Answer questions about data
-* Use LLMs to plan and explain analysis
-
-Future versions may also include:
-
-* SQL database analysis
-* RAG
-* Memory
-* Multiple AI agents
-* Additional external tools
+- Understand natural-language business questions
+- Work with Excel and CSV datasets
+- Perform data analysis
+- Use Python and Pandas for calculations
+- Use an LLM for reasoning and communication
+- Select appropriate tools
+- Validate results
+- Provide clear business insights
+- Handle errors safely
 
 ---
 
-## How the Agent Will Work
+## Learning Progress
 
-```text
-User Question
-      ↓
-LLM (Reasoning and Planning)
-      ↓
-Choose the Appropriate Tool
-      ↓
-Python / Pandas / SQL / Other Tools
-      ↓
-Analyze Data
-      ↓
-Observe Results
-      ↓
-Generate Insights
-      ↓
-Final Answer
-```
+| Lesson | Topic | Status |
+|---|---|---|
+| Lesson 1 | AI Agent Basics |  Completed |
+| Lesson 2 | LLM Fundamentals |  Completed |
+| Lesson 3 | Prompt Engineering |  Completed |
+| Lesson 4 | AI APIs & Python SDK |  Completed |
+| Lesson 5 | Guardrails |  Upcoming |
+| Lesson 6 | Tools & Function Calling |  Upcoming |
+| Lesson 7 | Agent Memory |  Upcoming |
+| Lesson 8 | Agent Loop |  Upcoming |
+| Lesson 9 | Building the Data Analyst Agent |  Upcoming |
+| Lesson 10 | Testing & Evaluation |  Upcoming |
+| Lesson 11 | Final Portfolio Project |  Upcoming |
 
 ---
 
-## Technologies and Concepts
+## Concepts Learned
 
-This project will gradually use:
+### AI Agent Basics
 
-* Python
-* Pandas
-* SQL
-* Large Language Models (LLMs)
-* Prompt Engineering
-* AI APIs
-* LangChain
-* LangGraph
-* MCP
-* RAG
-* Multi-Agent Systems
-* Git and GitHub
+- Goal
+- Brain / LLM
+- Tools
+- Memory
+- Actions
+- Agent loop
+
+### LLM Fundamentals
+
+- Large Language Models
+- Tokens
+- Context window
+- Temperature
+- Hallucination
+
+### Prompt Engineering
+
+- Role
+- Task
+- Context
+- Constraints
+- Output format
+- Zero-shot prompting
+- One-shot prompting
+- Few-shot prompting
+
+### AI APIs
+
+- API
+- API key
+- API quota
+- Python SDK
+- API requests and responses
+- Error handling
 
 ---
 
-## Learning Journey
+## Technologies
 
-| Lesson | Topic                          | Status      |
-| ------ | ------------------------------ | ----------- |
-| 1      | Introduction to Agentic AI     | Completed |
-| 2      | How Large Language Models Work | Completed |
-| 3      | Prompt Engineering             | Upcoming  |
-| 4      | AI APIs                        | Upcoming  |
-| 5      | Building AI Workflows          | Upcoming  |
-| 6      | Agent Frameworks and LangGraph | Upcoming  |
-| 7      | MCP and Tools                  | Upcoming  |
-| 8      | RAG                            | Upcoming  |
-| 9      | Multi-Agent Systems            | Upcoming  |
-| 10     | Final AI Data Analyst Agent    | Upcoming  |
+- Python
+- Google Colab
+- Pandas
+- Gemini API
+- Gemini Python SDK
+- GitHub
+
+---
+
+## Security
+
+API keys and other secrets are not stored in this repository.
+
+API credentials are stored securely using Google Colab Secrets.
+
+The project also uses a `.gitignore` file to prevent sensitive or unnecessary files from being committed.
 
 ---
 
 ## Project Structure
 
 ```text
-ai-data-analyst-agent/
+AI-data-analyst-agent/
 │
 ├── notes/
 │   ├── lesson_01_agent_basics.md
-│   └── lesson_02_llm_basics.md
+│   ├── lesson_02_LLM_basics.md
+│   ├── lesson_03_prompt_engineering.md
+│   └── lesson_04_ai_apis.md
 │
-├── README.md
-└── .gitignore
-```
-
-The project structure will expand as new components are built.
-
----
-
-## Current Progress
-
-Currently learning the foundations of Agentic AI and Large Language Models.
-
-The next step is **Prompt Engineering**, where the project will begin learning how to communicate effectively with LLMs and design reliable instructions for AI agents.
-
----
-
-## Author
-
-B K SUJITH
-
-Aspiring Data Analyst learning:
-
-Python | SQL | Excel | Pandas | Tableau | Data Visualization | Agentic AI
-
+├── .gitignore
+└── README.md
