@@ -26,17 +26,17 @@ Build an AI Data Analyst Agent that can:
 
 | Lesson | Topic | Status |
 |---|---|---|
-| Lesson 1 | AI Agent Basics |  Completed |
-| Lesson 2 | LLM Fundamentals |  Completed |
-| Lesson 3 | Prompt Engineering |  Completed |
-| Lesson 4 | AI APIs & Python SDK |  Completed |
-| Lesson 5 | Guardrails |  Upcoming |
-| Lesson 6 | Tools & Function Calling |  Upcoming |
-| Lesson 7 | Agent Memory |  Upcoming |
-| Lesson 8 | Agent Loop |  Upcoming |
-| Lesson 9 | Building the Data Analyst Agent |  Upcoming |
-| Lesson 10 | Testing & Evaluation |  Upcoming |
-| Lesson 11 | Final Portfolio Project |  Upcoming |
+| Lesson 1 | AI Agent Basics | Completed |
+| Lesson 2 | LLM Fundamentals | Completed |
+| Lesson 3 | Prompt Engineering | Completed |
+| Lesson 4 | AI APIs & Python SDK | Completed |
+| Lesson 5 | Guardrails | Completed |
+| Lesson 6 | Tools & Function Calling | Upcoming |
+| Lesson 7 | Agent Memory | Upcoming |
+| Lesson 8 | Agent Loop | Upcoming |
+| Lesson 9 | Building the Data Analyst Agent | Upcoming |
+| Lesson 10 | Testing & Evaluation | Upcoming |
+| Lesson 11 | Final Portfolio Project | Upcoming |
 
 ---
 
@@ -79,6 +79,35 @@ Build an AI Data Analyst Agent that can:
 - API requests and responses
 - Error handling
 
+### Guardrails
+
+- Input guardrails
+- Output guardrails
+- Attempt limits
+- Input validation
+- Output validation
+- Verified Python results
+- LLM response verification
+- Loop control using `break` and `continue`
+
+---
+
+## Lesson 5 — Guarded AI Data Analyst Agent
+
+In Lesson 5, I built a simple guarded AI Data Analyst Agent.
+
+The workflow is:
+
+**Validate → Calculate → Explain → Verify → Respond**
+
+Python and Pandas calculate and verify the numerical result.
+
+Gemini explains the verified result in natural language.
+
+Input and output guardrails control the agent workflow.
+
+The agent also includes a three-attempt limit for invalid requests.
+
 ---
 
 ## Technologies
@@ -111,7 +140,8 @@ AI-data-analyst-agent/
 │   ├── lesson_01_agent_basics.md
 │   ├── lesson_02_LLM_basics.md
 │   ├── lesson_03_prompt_engineering.md
-│   └── lesson_04_ai_apis.md
-│
+│   ├── lesson_04_ai_apis.md
+│   └── lesson_05_Guarded_AI_Data_Analyst_Agent.ipynb
+|
 ├── .gitignore
 └── README.md
