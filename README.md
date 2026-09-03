@@ -31,7 +31,7 @@ Build an AI Data Analyst Agent that can:
 | Lesson 3 | Prompt Engineering | Completed |
 | Lesson 4 | AI APIs & Python SDK | Completed |
 | Lesson 5 | Guardrails | Completed |
-| Lesson 6 | Tools & Function Calling | Upcoming |
+| Lesson 6 | Tools & Function Calling | Completed |
 | Lesson 7 | Agent Memory | Upcoming |
 | Lesson 8 | Agent Loop | Upcoming |
 | Lesson 9 | Building the Data Analyst Agent | Upcoming |
