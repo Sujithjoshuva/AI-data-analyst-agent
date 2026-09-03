@@ -130,18 +130,17 @@ API credentials are stored securely using Google Colab Secrets.
 The project also uses a `.gitignore` file to prevent sensitive or unnecessary files from being committed.
 
 ---
+## Lesson 6 — Tool Calling and Action Guardrails
 
-## Project Structure
+### Concepts Covered
+- Tool functions
+- Tool registry
+- Gemini tool calling
+- Function call extraction
+- Manual tool execution
+- Tool calling with arguments
+- Action guardrails
+- Allowed and blocked actions
 
-```text
-AI-data-analyst-agent/
-│
-├── notes/
-│   ├── lesson_01_agent_basics.md
-│   ├── lesson_02_LLM_basics.md
-│   ├── lesson_03_prompt_engineering.md
-│   ├── lesson_04_ai_apis.md
-│   └── lesson_05_Guarded_AI_Data_Analyst_Agent.ipynb
-|
-├── .gitignore
-└── README.md
+### Key Learning
+Learned how an AI agent can select tools and how an allowlist-based guardrail can prevent unauthorized actions from being executed.
